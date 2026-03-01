@@ -11,8 +11,9 @@ import FlavorDetail from './pages/FlavorDetail';
 import Checkout from './pages/Checkout';
 import OrdersPage from './pages/OrdersPage';
 import TrackOrderPage from './pages/TrackOrderPage';
-// ✅ Import Auth Page
 import AuthPage from './pages/AuthPage';
+// ✅ Import Admin Dashboard
+import AdminDashboard from './pages/AdminDashboard';
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -84,9 +85,11 @@ function App() {
           <Route path="/track" element={<TrackOrderPage />} />
           <Route path="/track/:orderId" element={<TrackOrderPage />} />
           
-          {/* ✅ Registered Auth Routes */}
           <Route path="/login" element={<AuthPage type="login" />} />
           <Route path="/signup" element={<AuthPage type="signup" />} />
+          
+          {/* ✅ Registered Admin Route */}
+          <Route path="/admin" element={<AdminDashboard />} />
         </Routes>
       </div>
 
