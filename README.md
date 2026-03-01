@@ -4,8 +4,8 @@ A modern, sleek, and fully functional frontend application for a luxury ice crea
 
 
 
-## 🚀 Live Demo
-*(Insert your live demo link here, e.g., Netlify/Vercel link)*
+
+
 
 ## ✨ Features
 
