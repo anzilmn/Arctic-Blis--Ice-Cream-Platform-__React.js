@@ -100,6 +100,33 @@ ResourceEndpointsAuthRegister, Login, Profile, Change PasswordFlavorsList, Detai
 /admin — Admin dashboard (requires admin login)
 
 
+
+2. Setup the Backend
+bashcd backend
+cp .env.example .env
+npm install
+node seed.js
+npm run dev
+
+
+
+3. Setup the Frontend
+bashcd arctic-bliss
+cp .env.example .env
+npm install
+npm run dev
+```
+
+Visit `http://localhost:5173`
+
+---
+
+## 🔑 Default Admin Credentials
+```
+Email:    admin@arcticbliss.com
+Password: admin123
+
+
 📄 License
 MIT — feel free to use this project for learning or as a base for your own work.
 
