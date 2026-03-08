@@ -1,5 +1,3 @@
-Here's your updated README for the full-stack version:
-
 🍦 Arctic Bliss - Premium Ice Cream Platform
 A modern, full-stack web application for a luxury ice cream brand, built with React.js, Node.js, Express, and MongoDB. Features real authentication, live product data, order management, reviews, complaints, and a full admin dashboard.
 
